@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly.express as px
+from plotly import express as px
 import weather_data
 
 st.title("Weather Forecast App")
